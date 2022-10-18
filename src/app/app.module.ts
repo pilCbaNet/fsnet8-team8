@@ -3,14 +3,32 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { LandingComponent } from './pages/landing/landing.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
+import { LastmovementsComponent } from './pages/lastmovements/lastmovements.component';
+import { OperationsComponent } from './pages/operations/operations.component';
+import { DepositComponent } from './pages/operations/deposit/deposit.component';
+import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    LandingComponent,
+    LoginComponent,
+    RegisterComponent,
+    LastmovementsComponent,
+    OperationsComponent,
+    DepositComponent,
+    DrawoutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

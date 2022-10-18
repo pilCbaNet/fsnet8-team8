@@ -37,7 +37,7 @@
 .navbar ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'calibri';
+    font-family: Roboto, "sans-serif";
     font-size: 1.2rem;
 }
 
@@ -55,3 +55,15 @@
 .navbar ul li:hover::before {
     width: 100%;
 } */
+.logo-bit{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.logo-bit p{
+    color:white;
+    font-family: 'calibri';
+    font-size:2.4rem;
+    letter-spacing: 2px;
+}
