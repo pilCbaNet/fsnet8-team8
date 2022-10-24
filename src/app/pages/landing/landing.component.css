@@ -6,6 +6,7 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    animation: fadeIn 1s;
     /* gap: 40px; */
 }
 .landing-text h1{
@@ -54,3 +55,7 @@
         transform: translateY(-10%);
     }
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

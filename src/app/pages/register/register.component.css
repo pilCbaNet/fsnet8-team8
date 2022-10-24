@@ -15,6 +15,7 @@
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
+    animation: fadeIn 0.8s;
   }
   
   .form-register h4 {
@@ -66,4 +67,8 @@
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
   }
