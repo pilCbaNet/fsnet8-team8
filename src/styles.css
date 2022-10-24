@@ -21,6 +21,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.navbar a{
+    text-decoration:none;
+}
 
 .logo {
     width: 130px;
