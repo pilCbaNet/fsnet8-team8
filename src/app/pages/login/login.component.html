@@ -1,8 +1,24 @@
 <section class="form-register">
-    <h4>Iniciar sesión</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su usuario">
-    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su contraseña">
-    <p><a href="#">Olvide mi contraseña</a></p>
-    <input class="botons" type="submit" value="Ingresar">
-    <p><a routerLink="/register">¿No tienes Cuenta?</a></p>
-  </section>
+  <h4>Iniciar sesión</h4>
+
+  <div class="row mt-2">
+
+    <div class="col-sm-12 col-md-12 col-lg-12 p-3">
+
+      <label for="username" class="form-label">Ingrese su usuario</label>
+      <input class="controls form-control" type="text" name="username" id="username">
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-12 p-3">
+      <label for="password" class="form-label">Ingrese su contraseña</label>
+      <input class="controls form-control" type="password" name="password" id="password">
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-12 p-3">
+
+      <p><a href="#">Olvide mi contraseña</a></p>
+      <input class="botons button btn btn-success" type="submit" value="Ingresar">
+      <p><a routerLink="/register">¿No tienes Cuenta?</a></p>
+    </div>
+  </div>
+</section>
