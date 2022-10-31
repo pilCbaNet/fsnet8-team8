@@ -54,12 +54,16 @@
   }
   
   .form-register .botons {
-    width: 100%;
+    width: 150px;
+    justify-content: center;
     background: #1f53c5;
     border: none;
     padding: 12px;
     color: rgb(253, 254, 160);
-    margin: 16px 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
   }
   .check-box{
