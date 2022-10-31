@@ -6,7 +6,7 @@
   
   
   .form-register {
-    width: 400px;
+    width: 1200px;
     background: rgb(29, 40, 70);
     padding: 30px;
     margin: auto;
@@ -25,7 +25,7 @@
   }
   
   .controls {
-    width: 100%;
+    /* width: 100%; */
     background: rgb(23, 41, 77);
     padding: 10px;
     border-radius: 4px;
