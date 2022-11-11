@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .landing-text{
     width: 100vh;
     /* background-color:rgba(0, 0, 50, 0.3); */
@@ -43,12 +47,12 @@
     font-size: 1.5em;
     color:white;
     letter-spacing: 0.2em;
-    background-color:rgba(0, 0, 50, 0.3);
+    background-color:rgba(0, 0, 54, 0.4);
     transition: 0.7s;
 }
 #btn-inicio:hover{
     color: black;
-    background-color: rgb(254, 255, 136);
+    background-color: rgb(255, 255, 114);
 }
 @keyframes bouncel{
     0%{
