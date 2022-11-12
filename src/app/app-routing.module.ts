@@ -6,6 +6,8 @@ import { RegisterComponent } from './pages/register/register.component';
 import { LastmovementsComponent } from './pages/lastmovements/lastmovements.component';
 import { DepositComponent } from './pages/operations/deposit/deposit.component';
 import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+
 
 const routes: Routes = [
   {path: '', component: LandingComponent},
@@ -15,6 +17,7 @@ const routes: Routes = [
   {path: 'lastmovements', component: LastmovementsComponent},
   {path:'operations/deposit', component: DepositComponent},
   {path:'operations/drawout', component: DrawoutComponent},
+  {path: 'about-us', component: AboutUsComponent},
   // {path: '**', pathMatch: 'full', redirectTo: ''}
 ];
 
