@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "team": [
+    {
+      "id": 1,
+      "name": "Gastón",
+      "perfil": "Desarrollador",
+      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Giuliana",
+      "perfil": "Desarrollador",
+      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nicolás",
+      "perfil": "Desarrollador",
+      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Franco",
+      "perfil": "Desarrollador",
+      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Maximiliano",
+      "perfil": "Desarrollador",
+      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Valentin",
+      "perfil": "Desarrollador",
+      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   
   
   .form-register {
-    width: 400px;
+    width: 1000px;
     background: rgb(29, 40, 70);
     padding: 30px;
     margin: auto;
@@ -25,7 +25,7 @@
   }
   
   .controls {
-    width: 100%;
+    /* width: 100%; */
     background: rgb(23, 41, 77);
     padding: 10px;
     border-radius: 4px;
@@ -54,12 +54,16 @@
   }
   
   .form-register .botons {
-    width: 100%;
+    width: 150px;
+    justify-content: center;
     background: #1f53c5;
     border: none;
     padding: 12px;
     color: rgb(253, 254, 160);
-    margin: 16px 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
     font-size: 16px;
   }
   .check-box{

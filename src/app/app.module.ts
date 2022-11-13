@@ -13,6 +13,9 @@ import { LastmovementsComponent } from './pages/lastmovements/lastmovements.comp
 import { OperationsComponent } from './pages/operations/operations.component';
 import { DepositComponent } from './pages/operations/deposit/deposit.component';
 import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -25,11 +28,13 @@ import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
     LastmovementsComponent,
     OperationsComponent,
     DepositComponent,
-    DrawoutComponent
+    DrawoutComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

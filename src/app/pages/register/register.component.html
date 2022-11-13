@@ -1,13 +1,54 @@
 
     <section class="form-register">
       <h4>Formulario Registro</h4>
-      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-      <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-      <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-      <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-      <div class="check-box">
+      
+      <div class="row mt-2">
+
+        <!-- Name -->
+        <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+          <label for="nombres" class="form-label">Ingrese su nombre</label>
+          <input class="controls form-control" type="text" name="nombres" id="nombres">
+      </div>
+      
+      <!-- Surname -->
+      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+        <label for="apellidos" class="form-label">Ingrese su apellido</label>
+        <input class="controls form-control" type="text" name="apellidos" id="apellidos" >
+      </div>
+      
+      <!-- email -->
+      
+      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+        <label for="correo" class="form-label">Ingrese su correo electrónico</label>
+        <input class="controls form-control" type="email" name="correo" id="correo">
+      </div>
+      
+      <!-- Password -->
+      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+        <label for="password" class="form-label">Ingrese su contraseña</label>
+        <input class="controls form-control" type="password" name="password" id="password">
+      </div>
+      
+      <!-- Confirm password -->
+      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+        <label for="confirmPassword" class="form-label">Vuelva a ingresar su contraseña</label>
+        <input class="controls form-control" type="password" name="confirmPassword" id="confirmPassword">
+      </div>
+      
+      <!-- Terms of service -->
+
+      <div class="col-md-12 col-lg-12 p-3 py-2">
+
+        
+        <div class="check-box">
         <input type="checkbox">
         <p>Acepto los <a href="#">Terminos y Condiciones</a></p></div>
-      <input class="botons" type="submit" value="Registrarse">
-      <p><a routerLink="/login">¿Ya tienes cuenta?</a></p>
-    </section>
+        
+        <!-- Submit -->
+        <input class="botons btn btn-success" type="submit" value="Registrarse">
+        
+        <!-- Route to login -->
+        <p><a routerLink="/login">¿Ya tienes cuenta?</a></p>
+      </div>
+    </div>
+      </section>
