@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +14,8 @@ import { LastmovementsComponent } from './pages/lastmovements/lastmovements.comp
 import { OperationsComponent } from './pages/operations/operations.component';
 import { DepositComponent } from './pages/operations/deposit/deposit.component';
 import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
+
+
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
