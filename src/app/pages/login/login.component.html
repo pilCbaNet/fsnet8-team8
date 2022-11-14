@@ -12,10 +12,10 @@
 
         <div *ngIf="usuario?.invalid && (usuario?.dirty || usuario?.touched)" class="alert">
 
-          <div *ngIf="usuario?.errors?.['required']">
+          <div *ngIf="usuario?.errors?.['required']" style="color: rgb(255, 101, 0);">
             El usuario es requerido.
           </div>
-          <div *ngIf="usuario?.errors?.['usuario']">
+          <div *ngIf="usuario?.errors?.['usuario']" style="color: rgb(255, 101, 0);">
             El formato no es valido
           </div>
         </div>
@@ -26,8 +26,8 @@
         <input class="controls form-control" formControlName="password" type="password" name="password" id="password">
         <div *ngIf="password?.invalid && (password?.dirty || password?.touched)" class="alert">
 
-          <div *ngIf="password?.errors?.['required']">
-            Ingrese su contraseña
+          <div *ngIf="password?.errors?.['required']" style="color: rgb(255, 101, 0);">
+            Ingrese una contraseña válida.
           </div>
         </div>
       </div>
