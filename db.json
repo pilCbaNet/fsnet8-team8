@@ -20,38 +20,51 @@
     {
       "id": 1,
       "name": "Gastón",
-      "perfil": "Desarrollador",
-      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+      "perfil": "Front End Developer",
+      "imagen": "../../../assets/img/team/Gaston.jpg",
+      "linkedin": "https://www.linkedin.com/in/gast%C3%B3n-exequiel-gonzalez-68a422245",
+      "github": "https://github.com/melligaston"
     },
     {
       "id": 2,
       "name": "Giuliana",
-      "perfil": "Desarrollador",
-      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+      "perfil": "Front End Developer",
+      "imagen": "../../../assets/img/team/Giuliana.jpg",
+      "linkedin": "https://www.linkedin.com/in/giuliana-gomez-030864230",
+      "github": "https://github.com/GiuliGomez"
     },
     {
       "id": 3,
       "name": "Nicolás",
-      "perfil": "Desarrollador",
-      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+      "perfil": "Back End Developer",
+      "imagen": "../../../assets/img/team/Nicolas.jpg",
+      "linkedin": "https://www.linkedin.com/in/nicolas-fds/",
+      "github": "https://github.com/nfariasdesaa"
     },
+
     {
       "id": 4,
-      "name": "Franco",
-      "perfil": "Desarrollador",
-      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+      "name": "Maximiliano",
+      "perfil": "Front End Developer",
+      "imagen": "../../../assets/img/team/Maximiliano.jpg",
+      "linkedin": "https://www.linkedin.com/in/maximiliano-baez-5a16a6150/",
+      "github": "https://github.com/MaxiBaez"
     },
     {
       "id": 5,
-      "name": "Maximiliano",
-      "perfil": "Desarrollador",
-      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+      "name": "Valentin",
+      "perfil": "Back End Developer",
+      "imagen": "../../../assets/img/team/Valentin.jpg",
+      "linkedin": "https://www.linkedin.com/in/valentin-forbes-dev-qa",
+      "github": "https://github.com/ValenForbes"
     },
     {
       "id": 6,
-      "name": "Valentin",
-      "perfil": "Desarrollador",
-      "imagen": "https://www.cdc.gov/preconception/spanish/images/man-with-arms-crossed.jpg"
+      "name": "Franco",
+      "perfil": "Back End Developer",
+      "imagen": "../../../assets/img/team/Franco.jpg",
+      "linkedin": "https://www.linkedin.com/in/franco-ávila-270a28218/",
+      "github": "https://github.com/Franc0Av"
     }
   ]
 }
