@@ -65,6 +65,22 @@
       "imagen": "../../../assets/img/team/Franco.jpg",
       "linkedin": "https://www.linkedin.com/in/franco-ávila-270a28218/",
       "github": "https://github.com/Franc0Av"
+    },
+    {
+      "id": 7,
+      "name": "German",
+      "perfil": "Front End Developer",
+      "imagen": "../../../assets/img/team/German.jpg",
+      "linkedin": "https://www.linkedin.com/in/german-cepeda-062a59253",
+      "github": "https://github.com/GermanCepeda"
+    },
+    {
+      "id": 8,
+      "name": "Gonzalo",
+      "perfil": "Back End Developer",
+      "imagen": "../../../assets/img/team/Gonzalo.jpg",
+      "linkedin": "https://www.linkedin.com/in/gonzalo-fantini/",
+      "github": "https://github.com/GonzaFantini"
     }
   ]
 }
