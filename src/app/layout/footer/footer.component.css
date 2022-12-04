@@ -1,7 +1,6 @@
 .container-footer{
-    position:fixed;
+    position: bottom;
     color: white;
     text-align:center;
     bottom: 0;
-    padding-left: 46%;
 }

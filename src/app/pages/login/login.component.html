@@ -15,8 +15,8 @@
           <div *ngIf="usuario?.errors?.['required']" style="color: rgb(255, 101, 0);">
             El usuario es requerido.
           </div>
-          <div *ngIf="usuario?.errors?.['usuario']" style="color: rgb(255, 101, 0);">
-            El formato no es valido
+          <div *ngIf="usuario?.errors?.['pattern']" style="color: rgb(255, 101, 0);">
+            Ingrese un correo válido.
           </div>
         </div>
       </div>
