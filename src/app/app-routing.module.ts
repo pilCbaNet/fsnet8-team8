@@ -7,12 +7,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { LastmovementsComponent } from './pages/lastmovements/lastmovements.component';
 import { DepositComponent } from './pages/operations/deposit/deposit.component';
 import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
-<<<<<<< Updated upstream
-
-=======
-import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
->>>>>>> Stashed changes
 
 
 const routes: Routes = [
@@ -24,13 +19,9 @@ const routes: Routes = [
   {path: 'lastmovements', component: LastmovementsComponent},
   {path:'operations/deposit', component: DepositComponent},
   {path:'operations/drawout', component: DrawoutComponent},
-<<<<<<< Updated upstream
-  {path: '', redirectTo: '/home', pathMatch: 'full'}
-=======
-  {path: 'about-us', component: AboutUsComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'dashboard', component:DashboardComponent}
   // {path: '**', pathMatch: 'full', redirectTo: ''}
->>>>>>> Stashed changes
 ];
 
 @NgModule({
