@@ -65,3 +65,17 @@ body {
     text-decoration: none;
 
 }
+
+.inner-body{
+    flex: 1;
+}
+
+.outer-body{
+    display: flex;
+  flex-flow: column;
+  height: calc( 100vh - 60px); /*   //viewport height - app-navbar height*/
+}
+
+app-footer{
+    flex: auto;
+}
