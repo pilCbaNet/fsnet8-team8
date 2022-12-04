@@ -17,6 +17,7 @@ import { DepositComponent } from './pages/operations/deposit/deposit.component';
 import { DrawoutComponent } from './pages/operations/drawout/drawout.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 
@@ -33,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     OperationsComponent,
     DepositComponent,
     DrawoutComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

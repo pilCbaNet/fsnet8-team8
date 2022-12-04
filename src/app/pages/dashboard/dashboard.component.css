@@ -1,0 +1,21 @@
+.primerDiv{
+    background-color:rgba(255, 255, 255, 0.171);
+    padding: 3em;
+}
+.primerDiv p{
+    font-size: medium;
+    color: white;
+}
+
+.segundoDiv{
+    background-color: rgba(255, 255, 255, 0.171);  
+}
+table{
+    background-color: rgba(255, 255, 255, 0.171); 
+}
+.primerDiv button{
+    color: #ffff;
+    background-color: #cf9357;
+    border-color: #cf9357;
+    border-radius: 10px;
+}
