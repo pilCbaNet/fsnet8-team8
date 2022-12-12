@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valen\\source\\repos\\BilleGitHuibGrupoH\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valen\\source\\repos\\BilleGitHuibGrupoH\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {
+    "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valen\\source\\repos\\BilleGitHuibGrupoH\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Valen\\source\\repos\\BilleGitHuibGrupoH\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Valen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valen\\source\\repos\\BilleGitHuibGrupoH\\fsnet8-team8\\backend\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Valen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,8 +60,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
