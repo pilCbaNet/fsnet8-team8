@@ -1,0 +1,12 @@
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.dll
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\refint\Negocio.dll
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\Valen\source\repos\BilleteraGrupoHWebApi\Negocio\obj\Debug\net6.0\ref\Negocio.dll
