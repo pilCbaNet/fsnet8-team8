@@ -18,7 +18,7 @@ namespace Negocio
         public Usuarios LoginUsuario(BilleteraCryptoContext db, string us, string pass)
         {
             var usuarioLogueado = db.Usuarios.
-                FirstOrDefault(c => c.Usuario == us && c.Contraseña == pass);
+                FirstOrDefault(c => c.EmailUsu == us && c.Contraseña == pass);
             return usuarioLogueado;
         }
     }

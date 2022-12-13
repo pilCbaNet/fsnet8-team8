@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Login } from '../models/login';
 
 @Injectable({
@@ -8,21 +9,28 @@ import { Login } from '../models/login';
 })
 export class LoginService {
 
-  constructor(private http:HttpClient) 
+  url: string="https://localhost:7155/api/Usuarios/login";
+
+  loggedIn= new BehaviorSubject<boolean>(false);
+  currentUserSubject: BehaviorSubject<Login>;
+  currentUser: Observable<Login>;
+
+  constructor(private http:HttpClient, private router: Router) 
   {
-    console.log("el servicio login funciona");
+    this.currentUserSubject = new BehaviorSubject<Login>(JSON.parse(localStorage.getItem('currentUser') || '{}'));
+    this.currentUser = this.currentUserSubject.asObservable();
    }
 
    iniciarSesion(login: Login):Observable<any>
    {
 
-    return this.http.post('http://localhost:3000/posts', login)
+    return this.http.post<any>(this.url, login); 
+    // .pipe(map(data =>{
+    //   sessionStorage.setItem
+    // }))
    }
 
 
 
-   encontrarUsuario() : Observable<any>
-   {
-    return this.http.get('http://localhost:3000/users');
-   }
+
 }

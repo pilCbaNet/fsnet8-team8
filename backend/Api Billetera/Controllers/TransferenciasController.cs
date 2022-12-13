@@ -31,16 +31,16 @@ namespace Api_Billetera.Controllers
     //  return ultimaOperacion;
     //}
 
-    [HttpGet("{Ultimo movimiento:int}")]
-    public Transferencias Get(int idUsuario)
-    {
-        using (var db = new BilleteraCryptoContext())
-        {
-        int? idUsuario = new UsuarioBC().ObtenerUsuario(db, idUsuario).IdBilletera;
-        int? idBilletera = new TransferenciaBC().ObtenerBilletera(db, idBilletera.value).IdTransferencia;
-            return new TransferenciaBC().ObtenerTransferencias(db, idTransferencia);
-        }
-    }
+    //[HttpGet("{Ultimo movimiento:int}")]
+    //public Transferencias Get(int idUsuario)
+    //{
+    //    using (var db = new BilleteraCryptoContext())
+    //    {
+    //    int? idUsuario = new UsuarioBC().ObtenerUsuario(db, idUsuario).IdBilletera;
+    //    int? idBilletera = new TransferenciaBC().ObtenerBilletera(db, idBilletera.value).IdTransferencia;
+    //        return new TransferenciaBC().ObtenerTransferencias(db, idTransferencia);
+    //    }
+    //}
 
     // GET api/<TransferenciasController>/5
     [HttpGet("{id}")]

@@ -37,9 +37,7 @@ user:any;
   }
 
   ngOnInit(): void {
-    this.miServicio.encontrarUsuario().subscribe(data => {
-      console.log(data);
-    })
+    
   }
 
   login() {
