@@ -1,4 +1,4 @@
-﻿
+
 //using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -53,18 +53,18 @@ namespace Api_Billetera.Controllers
             }
         }
 
-        [HttpPost]
-        [Route("API-BestWallet/usuario/registrar")]
-        public async Task<Usuarios> RegistrarUsuario([FromBody] Usuarios oUsuario)
-        {
-            using (var db = new BilleteraCryptoContext())
-            {
-                return await db.Usuarios.RegistrarUsuario(oUsuario);
+        //[HttpPost]
+        //[Route("API-BestWallet/usuario/registrar")]
+        //public async Task<Usuarios> RegistrarUsuario([FromBody] Usuarios oUsuario)
+        //{
+        //    using (var db = new BilleteraCryptoContext())
+        //    {
+        //        return await db.Usuarios.RegistrarUsuario(oUsuario);
 
-            }
+        //    }
 
 
-        }
+        //}
 
 
         // POST api/<UsuariosController>
