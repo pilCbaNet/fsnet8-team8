@@ -1,4 +1,4 @@
-﻿//using Api_Billetera.Models;
+//using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Negocio;
@@ -24,7 +24,7 @@ namespace Api_Billetera.Controllers
 
         // GET api/<LocalidadesController>/5
         [HttpGet("{id}")]
-        public Localidades Get(int id)
+        public Localidades? Get(int id)
         {
             using (var db = new BilleteraCryptoContext())
             {
@@ -50,7 +50,7 @@ namespace Api_Billetera.Controllers
         {
             using(var db = new BilleteraCryptoContext())
             {
-                Localidades oLocalidad = db.Localidades.Where(a => a.IdLocalidad == oldLocal.IdLocalidad).FirstOrDefault();
+                Localidades? oLocalidad = db.Localidades.Where(a => a.IdLocalidad == oldLocal.IdLocalidad).FirstOrDefault();
                 oLocalidad.NomLocalidad = oldLocal.NomLocalidad;
                 oLocalidad.IdProvincia=oldLocal.IdProvincia;
                 db.SaveChanges();
@@ -65,7 +65,7 @@ namespace Api_Billetera.Controllers
             {
                 using (var db = new BilleteraCryptoContext())
                 {
-                    Localidades oLocalidad = db.Localidades.FirstOrDefault(a => a.IdLocalidad == id);
+                    Localidades? oLocalidad = db.Localidades.FirstOrDefault(a => a.IdLocalidad == id);
                     db.Remove(oLocalidad);
                     db.SaveChanges();
                 }

@@ -1,4 +1,4 @@
-﻿using Entities;
+using Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Negocio
 {
     public class UsuarioBC
     {
-        public Usuarios ObtenerUsuario(BilleteraCryptoContext db, int id)
+        public Usuarios? ObtenerUsuario(BilleteraCryptoContext db, int id)
         {
             return db.Usuarios.FirstOrDefault(a => a.IdUsuario == id);
         }

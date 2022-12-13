@@ -1,4 +1,4 @@
-﻿
+
 //using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -84,7 +84,7 @@ namespace Api_Billetera.Controllers
         {
             using (var db = new BilleteraCryptoContext())
             {
-                Provincias oProvincia = db.Provincias.Where(a => a.IdProvincia == oldProv.IdProvincia).FirstOrDefault();
+                Provincias? oProvincia = db.Provincias.Where(a => a.IdProvincia == oldProv.IdProvincia).FirstOrDefault();
                 oProvincia.NomProvincia = oldProv.NomProvincia;
                 db.SaveChanges();
             }

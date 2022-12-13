@@ -1,4 +1,4 @@
-﻿
+
 //using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -23,8 +23,27 @@ namespace Api_Billetera.Controllers
 
         }
 
-        // GET api/<TransferenciasController>/5
-        [HttpGet("{id}")]
+    //[HttpGet]
+    //[Route("/Ultimos movimientos")]
+    //public List<Transferencias> GetUltimosMovimientos(int id)
+    //{
+    //  var ultimaOperacion = Transferencias.Where(a => a.Id == id).ToList();
+    //  return ultimaOperacion;
+    //}
+
+    [HttpGet("{Ultimo movimiento:int}")]
+    public Transferencias Get(int idUsuario)
+    {
+        using (var db = new BilleteraCryptoContext())
+        {
+        int? idUsuario = new UsuarioBC().ObtenerUsuario(db, idUsuario).IdBilletera;
+        int? idBilletera = new TransferenciaBC().ObtenerBilletera(db, idBilletera.value).IdTransferencia;
+            return new TransferenciaBC().ObtenerTransferencias(db, idTransferencia);
+        }
+    }
+
+    // GET api/<TransferenciasController>/5
+    [HttpGet("{id}")]
         public Transferencias Get(int id)
         {
             using (var db = new BilleteraCryptoContext())

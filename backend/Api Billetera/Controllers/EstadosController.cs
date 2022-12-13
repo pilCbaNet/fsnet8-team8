@@ -1,4 +1,4 @@
-﻿//using Api_Billetera.Models;
+//using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Negocio;
@@ -24,7 +24,7 @@ namespace Api_Billetera.Controllers
 
         // GET api/<EstadosController>/5
         [HttpGet("{id}")]
-        public Estados Get(int id)
+        public Estados? Get(int id)
         {
             using (var db = new BilleteraCryptoContext())
             {
@@ -49,7 +49,7 @@ namespace Api_Billetera.Controllers
         {
             using (var db = new BilleteraCryptoContext())
             {
-                Estados oEstado = db.Estados.Where(a => a.IdEstado == oldEStado.IdEstado).FirstOrDefault();
+                Estados? oEstado = db.Estados.Where(a => a.IdEstado == oldEStado.IdEstado).FirstOrDefault();
                 oEstado.NombreEst = oldEStado.NombreEst;
                 db.SaveChanges();
             }
@@ -63,7 +63,7 @@ namespace Api_Billetera.Controllers
             {
                 using (var db = new BilleteraCryptoContext())
                 {
-                    Estados oEstado = db.Estados.FirstOrDefault(a => a.IdEstado == id);
+                    Estados? oEstado = db.Estados.FirstOrDefault(a => a.IdEstado == id);
                     db.Remove(oEstado);
                     db.SaveChanges();
                 }

@@ -1,4 +1,4 @@
-﻿using Entities;
+using Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Negocio
 {
     public  class LocalidadBC
     {
-        public Localidades ObtenerLocalidad(BilleteraCryptoContext db, int id)
+        public Localidades? ObtenerLocalidad(BilleteraCryptoContext db, int id)
         {
             return db.Localidades.FirstOrDefault(a => a.IdLocalidad == id);
         }

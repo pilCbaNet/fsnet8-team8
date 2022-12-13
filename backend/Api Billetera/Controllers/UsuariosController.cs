@@ -26,7 +26,7 @@ namespace Api_Billetera.Controllers
 
         // GET api/<UsuariosController>/5
         [HttpGet("{id}")]
-        public Usuarios Get(int id)
+        public Usuarios? Get(int id)
         {
             using(var db = new BilleteraCryptoContext())
             {

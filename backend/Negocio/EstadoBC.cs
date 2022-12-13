@@ -1,4 +1,4 @@
-﻿using Entities;
+using Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace Negocio
 {
     public class EstadoBC
     {
-        public Estados ObtenerEstado(BilleteraCryptoContext db, int id)
+        public Estados? ObtenerEstado(BilleteraCryptoContext db, int id)
         {
             return db.Estados.FirstOrDefault(a => a.IdEstado == id);
         }

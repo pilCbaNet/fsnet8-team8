@@ -1,4 +1,4 @@
-﻿
+
 //using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -25,7 +25,7 @@ namespace Api_Billetera.Controllers
 
         // GET api/<UsuariosMonedasController>/5
         [HttpGet("{id}")]
-        public UsuariosMonedas Get(int id)
+        public UsuariosMonedas? Get(int id)
         {
             using (var db = new BilleteraCryptoContext())
             {
