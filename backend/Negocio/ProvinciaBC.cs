@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Negocio
 {
-    public class ProvinciaBC
+  public class ProvinciaBC
     {
-        public Provincia? ObtenerProvincia(BilleteraCryptoContext db, int id)
+        public Provincias ObtenerProvincia(BilleteraCryptoContext db, int id)
         {
             return db.Provincias.Include(a => a.Localidades).FirstOrDefault(a => a.IdProvincia == id);
         }

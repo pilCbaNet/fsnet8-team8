@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {
+    "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"

@@ -7,15 +7,15 @@
 
       <div class="col-sm-12 col-md-12 col-lg-12 p-3">
 
-        <label for="usuario" class="form-label">Ingrese su usuario</label>
-        <input class="controls form-control" formControlName="usuario" type="text" name="usuario" id="usuario">
+        <label for="username" class="form-label">Ingrese su nombre de usuario</label>
+        <input class="controls form-control" formControlName="username" type="text" name="username" id="username">
 
-        <div *ngIf="usuario?.invalid && (usuario?.dirty || usuario?.touched)" class="alert">
+        <div *ngIf="username?.invalid && (username?.dirty || username?.touched)" class="alert">
 
-          <div *ngIf="usuario?.errors?.['required']" style="color: rgb(255, 101, 0);">
-            El usuario es requerido.
+          <div *ngIf="username?.errors?.['required']" style="color: rgb(255, 101, 0);">
+            El username es requerido.
           </div>
-          <div *ngIf="usuario?.errors?.['pattern']" style="color: rgb(255, 101, 0);">
+          <div *ngIf="username?.errors?.['pattern']" style="color: rgb(255, 101, 0);">
             Ingrese un correo válido.
           </div>
         </div>

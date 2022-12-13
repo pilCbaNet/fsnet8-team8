@@ -11,16 +11,17 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 const routes: Routes = [
-  {path: '', component: LandingComponent},
   {path: 'landing', component: LandingComponent},
+  {path: '', redirectTo: '/landing', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
   {path: 'about-us', component: AboutUsComponent},
   {path: 'register', component: RegisterComponent},
-  {path: 'lastmovements', component: LastmovementsComponent},
-  {path:'operations/deposit', component: DepositComponent},
-  {path:'operations/drawout', component: DrawoutComponent},
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'dashboard', component:DashboardComponent}
+  {path: 'dashboard', component:DashboardComponent,
+  children:[
+    {path: 'lastmovements', component: LastmovementsComponent},
+    {path:'operations/deposit', component: DepositComponent},
+    {path:'operations/drawout', component: DrawoutComponent}
+  ]},
   // {path: '**', pathMatch: 'full', redirectTo: ''}
 ];
 

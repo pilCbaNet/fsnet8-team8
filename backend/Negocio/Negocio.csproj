@@ -10,10 +10,4 @@
     <ProjectReference Include="..\Entities\Entities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Negocio">
-      <HintPath>bin\Debug\net6.0\Negocio.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

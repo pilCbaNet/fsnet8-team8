@@ -76,6 +76,6 @@ body {
   height: calc( 100vh - 60px); /*   //viewport height - app-navbar height*/
 }
 
-app-footer{
+/* app-footer{
     flex:auto;
-}
+} */

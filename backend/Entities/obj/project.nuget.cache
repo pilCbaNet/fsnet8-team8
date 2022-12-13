@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9iNOZ6W3GezSRqthzWB4Km/QptQfDy3U8MahOJp0Nt1YwZqA1uwlbuZ8yo/8l6hobOvOJdyTWAnBnm/sp8Axkg==",
+  "dgSpecHash": "b3rhXhdBTuq7WUW8R4woSMtiLIb1dKwrLC6leOBH1echrJ6WLsM2hw9tCSe/X+vJfR5pEvjD5W3Jqj7M2cVgTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Equipo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Equipo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

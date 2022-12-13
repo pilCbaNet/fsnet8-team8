@@ -4,6 +4,16 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "username": "nfarias@hotmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "username": "nfarias@admin.com",
+      "password": "1234",
+      "id": 3
     }
   ],
   "comments": [
@@ -41,7 +51,6 @@
       "linkedin": "https://www.linkedin.com/in/nicolas-fds/",
       "github": "https://github.com/nfariasdesaa"
     },
-
     {
       "id": 4,
       "name": "Maximiliano",
@@ -81,6 +90,14 @@
       "imagen": "../../../assets/img/team/Gonzalo.jpg",
       "linkedin": "https://www.linkedin.com/in/gonzalo-fantini/",
       "github": "https://github.com/GonzaFantini"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "name": "Nicolás",
+      "username": "nfarias",
+      "password": "1234"
     }
   ]
 }

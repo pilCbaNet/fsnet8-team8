@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using DbContext = Microsoft.EntityFrameworkCore.DbContext;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Entities
 {
@@ -14,14 +16,14 @@ namespace Entities
         {
         }
 
-        public virtual DbSet<Billetera> Billeteras { get; set; } = null!;
-        public virtual DbSet<Estado> Estados { get; set; } = null!;
-        public virtual DbSet<Localidade> Localidades { get; set; } = null!;
-        public virtual DbSet<Moneda> Monedas { get; set; } = null!;
-        public virtual DbSet<Provincia> Provincias { get; set; } = null!;
-        public virtual DbSet<Transferencia> Transferencias { get; set; } = null!;
-        public virtual DbSet<Usuario> Usuarios { get; set; } = null!;
-        public virtual DbSet<UsuariosMoneda> UsuariosMonedas { get; set; } = null!;
+        public virtual DbSet<Billeteras> Billeteras { get; set; } = null!;
+        public virtual DbSet<Estados> Estados { get; set; } = null!;
+        public virtual DbSet<Localidades> Localidades { get; set; } = null!;
+        public virtual DbSet<Monedas> Monedas { get; set; } = null!;
+        public virtual DbSet<Provincias> Provincias { get; set; } = null!;
+        public virtual DbSet<Transferencias> Transferencias { get; set; } = null!;
+        public virtual DbSet<Usuarios> Usuarios { get; set; } = null!;
+        public virtual DbSet<UsuariosMonedas> UsuariosMonedas { get; set; } = null!;
         public virtual DbSet<VistaUsuario> VistaUsuarios { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -29,13 +31,13 @@ namespace Entities
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=VALEN\\SQLEXPRESS; Database=BilleteraCrypto; User=sa; Password=123456; TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-9KTDJH8\\SQLEXPRESS01; Database=BilleteraCrypto; User=sa; Password=1234; TrustServerCertificate=True");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Billetera>(entity =>
+            modelBuilder.Entity<Billeteras>(entity =>
             {
                 entity.HasKey(e => e.IdBilletera)
                     .HasName("pk_ID_Billetera");
@@ -59,7 +61,7 @@ namespace Entities
                     .HasConstraintName("fk_billetera_ID_Usuario");
             });
 
-            modelBuilder.Entity<Estado>(entity =>
+            modelBuilder.Entity<Estados>(entity =>
             {
                 entity.HasKey(e => e.IdEstado)
                     .HasName("pk_ID_Estado");
@@ -72,7 +74,7 @@ namespace Entities
                     .HasColumnName("Nombre_est");
             });
 
-            modelBuilder.Entity<Localidade>(entity =>
+            modelBuilder.Entity<Localidades>(entity =>
             {
                 entity.HasKey(e => e.IdLocalidad)
                     .HasName("pk_ID_Localidad");
@@ -92,7 +94,7 @@ namespace Entities
                     .HasConstraintName("fk_ID_Provincia");
             });
 
-            modelBuilder.Entity<Moneda>(entity =>
+            modelBuilder.Entity<Monedas>(entity =>
             {
                 entity.HasKey(e => e.IdMoneda)
                     .HasName("pk_ID_Moneda");
@@ -105,7 +107,7 @@ namespace Entities
                     .HasColumnName("Nombre_mon");
             });
 
-            modelBuilder.Entity<Provincia>(entity =>
+            modelBuilder.Entity<Provincias>(entity =>
             {
                 entity.HasKey(e => e.IdProvincia)
                     .HasName("pk_ID_Provincia");
@@ -118,7 +120,7 @@ namespace Entities
                     .HasColumnName("Nom_Provincia");
             });
 
-            modelBuilder.Entity<Transferencia>(entity =>
+            modelBuilder.Entity<Transferencias>(entity =>
             {
                 entity.HasKey(e => e.IdTransferencia)
                     .HasName("pk_ID_Transferencia");
@@ -139,7 +141,7 @@ namespace Entities
                     .HasConstraintName("fk_ID_Billetera");
             });
 
-            modelBuilder.Entity<Usuario>(entity =>
+            modelBuilder.Entity<Usuarios>(entity =>
             {
                 entity.HasKey(e => e.IdUsuario)
                     .HasName("pk_ID_Usuario");
@@ -186,7 +188,7 @@ namespace Entities
                     .IsUnicode(false)
                     .HasColumnName("telefono");
 
-                entity.Property(e => e.Usuario1)
+                entity.Property(e => e.Usuario)
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("usuario");
@@ -197,7 +199,7 @@ namespace Entities
                     .HasConstraintName("fk_ID_Localidad");
             });
 
-            modelBuilder.Entity<UsuariosMoneda>(entity =>
+            modelBuilder.Entity<UsuariosMonedas>(entity =>
             {
                 entity.HasKey(e => e.IdUsuarioMoneda)
                     .HasName("pk_ID_Usuario_Moneda");

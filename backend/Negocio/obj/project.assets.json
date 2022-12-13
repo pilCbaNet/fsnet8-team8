@@ -1795,11 +1795,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Negocio\\Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Negocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Negocio\\Negocio.csproj",
+      "projectPath": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Negocio\\Negocio.csproj",
       "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Negocio\\obj\\",
+      "outputPath": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -1821,8 +1821,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Equipo\\Source\\Repos\\fsnet8-team8\\backend\\Entities\\Entities.csproj"
+            "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Equipo\\Desktop\\API BILLETERA\\Entities\\Entities.csproj"
             }
           }
         }
