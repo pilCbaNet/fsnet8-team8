@@ -22,6 +22,13 @@
       <input class="controls form-control" type="email" name="correo" id="correo">
     </div>
 
+    <!-- Date birth -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="correo" class="form-label">Ingrese su fecha de nacimiento</label>
+      <input id="startDate" class="controls form-control" type="date" />
+    </div>
+
+
     <!-- Password -->
     <div class="col-sm-12 col-md-12 col-lg-5 p-3">
       <label for="password" class="form-label">Ingrese su contraseña</label>
@@ -37,11 +44,12 @@
     <!-- provincia -->
     <div class="col-sm-12 col-md-12 col-lg-5 p-3">
       <label for="provincia" class="form-label">Selecione su Provincia</label>
-      <select name="provincias" class="controls form-control" aria-placeholder="Provincia" (change)="onProvinciasSelected($event)">
+      <select name="provincias" class="controls form-control" aria-placeholder="Provincia"
+        (change)="onProvinciasSelected($event)">
         <option>
           test
         </option>
-        <option *ngFor="let p of ListaProvincias" ngValue="p.idProvincia">
+        <option *ngFor="let p of ListaProvincias" value="{{p.idProvincia}}">
           {{p.nomProvincia}}
         </option>
       </select>
@@ -51,7 +59,7 @@
     <div class="col-sm-12 col-md-12 col-lg-5 p-3">
       <label for="localidad" class="form-label">Seleccione su Localidad</label>
       <select name="localidades" class="controls form-control" aria-placeholder="Localidades">
-        <option *ngFor="let l of ListaLocalidades" [value]="l.idLocalidad">
+        <option *ngFor="let l of ListaLocalidades" value={{l.idLocalidad}}>
           {{l.nomLocalidad}}
         </option>
       </select>

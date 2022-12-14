@@ -14,36 +14,35 @@ import { ProvinciasService } from 'src/app/services/provincias.service';
 export class RegisterComponent implements OnInit {
   ListaProvincias: any;
   ListaLocalidades: any;
-  IdProvincia: any;
-  selectedProvincia: any;
-  
-  onProvinciasSelected(p:any){
+  IdProvincia?: number;
+  selectedProvincia = 0;
+
+  onProvinciasSelected(p: any) {
     console.log(p.target.value);
-    this.IdProvincia=p.target.value;
-    var IdProvincia = Number(p);
-    console.log(IdProvincia);
-    
-    
-    
-    this.provinciasService.getLocalidadesList(IdProvincia).subscribe((data: any) =>{
+    this.IdProvincia = +p.target['value'];
+
+
+
+
+    this.provinciasService.getLocalidadesList(this.IdProvincia = +p.target['value']).subscribe((data: any) => {
       console.log(data);
-      this.ListaLocalidades=data;
+      this.ListaLocalidades = data;
     })
   }
-    
-    
 
-  constructor(private formBuilder: FormBuilder, private loginService:LoginService, private provinciasService: ProvinciasService) { 
+
+
+  constructor(private formBuilder: FormBuilder, private loginService: LoginService, private provinciasService: ProvinciasService) {
   }
 
   ngOnInit(): void {
-    
-    this.provinciasService.getProvinciasList().subscribe((data: any) =>{
+
+    this.provinciasService.getProvinciasList().subscribe((data: any) => {
       console.log(data);
-      this.ListaProvincias=data;
+      this.ListaProvincias = data;
     })
 
-    
+
 
   }
 

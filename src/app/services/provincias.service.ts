@@ -24,7 +24,7 @@ export class ProvinciasService {
   }
 
 
-  getLocalidadesList(IdProvincia: number){
+  getLocalidadesList(IdProvincia: number):Observable<any[]>{
     return this.http.get<any>(this.urlLocalidades+IdProvincia);
   }
 
