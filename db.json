@@ -27,14 +27,7 @@
     "name": "typicode"
   },
   "team": [
-    {
-      "id": 1,
-      "name": "Gastón",
-      "perfil": "Front End Developer",
-      "imagen": "../../../assets/img/team/Gaston.jpg",
-      "linkedin": "https://www.linkedin.com/in/gast%C3%B3n-exequiel-gonzalez-68a422245",
-      "github": "https://github.com/melligaston"
-    },
+
     {
       "id": 2,
       "name": "Giuliana",
