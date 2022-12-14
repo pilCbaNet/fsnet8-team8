@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -25,14 +25,15 @@ namespace Entities
         public virtual DbSet<Usuarios> Usuarios { get; set; } = null!;
         public virtual DbSet<UsuariosMonedas> UsuariosMonedas { get; set; } = null!;
         public virtual DbSet<VistaUsuario> VistaUsuarios { get; set; } = null!;
+        public virtual DbSet<TipoTransferencia> TipoTransferencias { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        optionsBuilder.UseSqlServer("Server=DESKTOP-MJ229U0; Database=BilleteraCrypto; User=sa; Password=1234; TrustServerCertificate=True;");
-      }
+                optionsBuilder.UseSqlServer("Server=DESKTOP-9KTDJH8\\SQLEXPRESS01; Database=BilleteraCrypto2; User=sa; Password=1234; TrustServerCertificate=True");
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -120,6 +121,21 @@ namespace Entities
                     .HasColumnName("Nom_Provincia");
             });
 
+            modelBuilder.Entity<TipoTransferencia>(entity =>
+            {
+                entity.HasKey(e => e.IdTipoTransferencia)
+                    .HasName("pk_id_tipo_transferencia");
+
+                entity.ToTable("Tipo_Transferencias");
+
+                entity.Property(e => e.IdTipoTransferencia).HasColumnName("ID_tipo_transferencia");
+
+                entity.Property(e => e.NomTrasferencia)
+                    .HasMaxLength(100)
+                    .IsUnicode(false)
+                    .HasColumnName("Nom_trasferencia");
+            });
+
             modelBuilder.Entity<Transferencias>(entity =>
             {
                 entity.HasKey(e => e.IdTransferencia)
@@ -133,12 +149,19 @@ namespace Entities
 
                 entity.Property(e => e.IdBilletera).HasColumnName("ID_Billetera");
 
+                entity.Property(e => e.IdTipoTransferencia).HasColumnName("ID_tipo_transferencia");
+
                 entity.Property(e => e.MontoTransf).HasColumnName("Monto_transf");
 
                 entity.HasOne(d => d.IdBilleteraNavigation)
                     .WithMany(p => p.Transferencia)
                     .HasForeignKey(d => d.IdBilletera)
                     .HasConstraintName("fk_ID_Billetera");
+
+                entity.HasOne(d => d.IdTipoTransferenciaNavigation)
+                    .WithMany(p => p.Transferencia)
+                    .HasForeignKey(d => d.IdTipoTransferencia)
+                    .HasConstraintName("fk_id_tipo_transferencia");
             });
 
             modelBuilder.Entity<Usuarios>(entity =>

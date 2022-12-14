@@ -26,7 +26,7 @@ namespace Api_Billetera.Controllers
 
         // GET api/<UsuariosController>/5
         [HttpGet("{id}")]
-        public Usuarios? Get(int id)
+        public Usuarios Get(int id)
         {
             using(var db = new BilleteraCryptoContext())
             {
@@ -39,7 +39,7 @@ namespace Api_Billetera.Controllers
         {
             using (var db = new BilleteraCryptoContext())
             {
-                Usuarios? user = new UsuarioBC().LoginUsuario(db, login["username"].ToString(), login["password"].ToString());
+                Usuarios user = new UsuarioBC().LoginUsuario(db, login["username"].ToString(), login["password"].ToString());
                 var loginResponse = new JsonObject
                 {
 

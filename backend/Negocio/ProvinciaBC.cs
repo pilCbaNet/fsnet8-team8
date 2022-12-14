@@ -1,4 +1,4 @@
-using Entities;
+﻿using Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ namespace Negocio
 {
   public class ProvinciaBC
     {
-        public Provincias? ObtenerProvincia(BilleteraCryptoContext db, int id)
+        public Provincias ObtenerProvincia(BilleteraCryptoContext db, int id)
         {
             return db.Provincias.Include(a => a.Localidades).FirstOrDefault(a => a.IdProvincia == id);
         }

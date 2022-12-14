@@ -10,9 +10,9 @@ namespace Negocio
 {
     public  class LocalidadBC
     {
-        public Localidades? ObtenerLocalidad(BilleteraCryptoContext db, int id)
+        public Localidades ObtenerLocalidad(BilleteraCryptoContext db, int id)
         {
-            return db.Localidades.FirstOrDefault(a => a.IdLocalidad == id);
+            return db.Localidades.ToList().FirstOrDefault(a => a.IdLocalidad == id);
         }
     }
 }

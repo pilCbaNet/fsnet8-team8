@@ -1,4 +1,4 @@
-//using Api_Billetera.Models;
+﻿//using Api_Billetera.Models;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Negocio;
@@ -24,7 +24,7 @@ namespace Api_Billetera.Controllers
 
         // GET api/<MonedasController>/5
         [HttpGet("{id}")]
-        public Monedas? Get(int id)
+        public Monedas Get(int id)
         {
            using(var db = new BilleteraCryptoContext())
             {
@@ -49,7 +49,7 @@ namespace Api_Billetera.Controllers
         {
             using (var db = new BilleteraCryptoContext())
             {
-                Monedas? oMoneda = db.Monedas.Where(a => a.IdMoneda == oldMonedas.IdMoneda).FirstOrDefault();
+                Monedas oMoneda = db.Monedas.Where(a => a.IdMoneda == oldMonedas.IdMoneda).FirstOrDefault();
                 oMoneda.NombreMon = oldMonedas.NombreMon;
                 db.SaveChanges();
             }
@@ -64,7 +64,7 @@ namespace Api_Billetera.Controllers
             {
                 using (var db = new BilleteraCryptoContext())
                 {
-                    Monedas? oMoneda = db.Monedas.FirstOrDefault(a => a.IdMoneda == id);
+                    Monedas oMoneda = db.Monedas.FirstOrDefault(a => a.IdMoneda == id);
                     db.Remove(oMoneda);
                     db.SaveChanges();
                 }

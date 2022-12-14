@@ -10,7 +10,9 @@ namespace Entities
         public int? CvuOrigenTransf { get; set; }
         public int? CvuDestinoTransf { get; set; }
         public int? IdBilletera { get; set; }
+        public int? IdTipoTransferencia { get; set; }
 
         public virtual Billeteras? IdBilleteraNavigation { get; set; }
+        public virtual TipoTransferencia? IdTipoTransferenciaNavigation { get; set; }
     }
 }
