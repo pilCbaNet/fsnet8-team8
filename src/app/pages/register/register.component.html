@@ -1,54 +1,83 @@
+<section class="form-register">
+  <h4>Formulario Registro</h4>
 
-    <section class="form-register">
-      <h4>Formulario Registro</h4>
-      
-      <div class="row mt-2">
+  <div class="row mt-2">
 
-        <!-- Name -->
-        <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-          <label for="nombres" class="form-label">Ingrese su nombre</label>
-          <input class="controls form-control" type="text" name="nombres" id="nombres">
-      </div>
-      
-      <!-- Surname -->
-      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-        <label for="apellidos" class="form-label">Ingrese su apellido</label>
-        <input class="controls form-control" type="text" name="apellidos" id="apellidos" >
-      </div>
-      
-      <!-- email -->
-      
-      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-        <label for="correo" class="form-label">Ingrese su correo electrónico</label>
-        <input class="controls form-control" type="email" name="correo" id="correo">
-      </div>
-      
-      <!-- Password -->
-      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-        <label for="password" class="form-label">Ingrese su contraseña</label>
-        <input class="controls form-control" type="password" name="password" id="password">
-      </div>
-      
-      <!-- Confirm password -->
-      <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-        <label for="confirmPassword" class="form-label">Vuelva a ingresar su contraseña</label>
-        <input class="controls form-control" type="password" name="confirmPassword" id="confirmPassword">
-      </div>
-      
-      <!-- Terms of service -->
-
-      <div class="col-md-12 col-lg-12 p-3 py-2">
-
-        
-        <div class="check-box">
-        <input type="checkbox">
-        <p>Acepto los <a href="#">Terminos y Condiciones</a></p></div>
-        
-        <!-- Submit -->
-        <input class="botons btn btn-success" type="submit" value="Registrarse">
-        
-        <!-- Route to login -->
-        <p><a routerLink="/login">¿Ya tienes cuenta?</a></p>
-      </div>
+    <!-- Name -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="nombres" class="form-label">Ingrese su nombre</label>
+      <input class="controls form-control" type="text" name="nombres" id="nombres">
     </div>
-      </section>
+
+    <!-- Surname -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="apellidos" class="form-label">Ingrese su apellido</label>
+      <input class="controls form-control" type="text" name="apellidos" id="apellidos">
+    </div>
+
+    <!-- email -->
+
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="correo" class="form-label">Ingrese su correo electrónico</label>
+      <input class="controls form-control" type="email" name="correo" id="correo">
+    </div>
+
+    <!-- Password -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="password" class="form-label">Ingrese su contraseña</label>
+      <input class="controls form-control" type="password" name="password" id="password">
+    </div>
+
+    <!-- Confirm password -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="confirmPassword" class="form-label">Vuelva a ingresar su contraseña</label>
+      <input class="controls form-control" type="password" name="confirmPassword" id="confirmPassword">
+    </div>
+
+    <!-- provincia -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="provincia" class="form-label">Selecione su Provincia</label>
+      <select name="provincias" class="controls form-control" aria-placeholder="Provincia" (change)="onProvinciasSelected($event)">
+        <option>
+          test
+        </option>
+        <option *ngFor="let p of ListaProvincias" ngValue="p.idProvincia">
+          {{p.nomProvincia}}
+        </option>
+      </select>
+    </div>
+
+    <!-- Localidad -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="localidad" class="form-label">Seleccione su Localidad</label>
+      <select name="localidades" class="controls form-control" aria-placeholder="Localidades">
+        <option *ngFor="let l of ListaLocalidades" [value]="l.idLocalidad">
+          {{l.nomLocalidad}}
+        </option>
+      </select>
+    </div>
+
+    <!-- telefono -->
+    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+      <label for="telefono" class="form-label">Ingrese su telefono</label>
+      <input class="controls form-control" type="text" name="telefono" id="telefono">
+    </div>
+
+    <!-- Terms of service -->
+
+    <div class="col-md-12 col-lg-12 p-3 py-2">
+
+
+      <!-- <div class="check-box">
+        <input type="checkbox">
+        <p>Acepto los <a href="#">Terminos y Condiciones</a></p>
+      </div> -->
+
+      <!-- Submit -->
+      <input class="botons btn btn-success" type="submit" value="Registrarse">
+
+      <!-- Route to login -->
+      <p><a routerLink="/login">¿Ya tienes cuenta?</a></p>
+    </div>
+  </div>
+</section>

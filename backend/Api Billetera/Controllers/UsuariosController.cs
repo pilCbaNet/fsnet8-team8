@@ -39,7 +39,7 @@ namespace Api_Billetera.Controllers
         {
             using (var db = new BilleteraCryptoContext())
             {
-                Usuarios user = new UsuarioBC().LoginUsuario(db, login["username"].ToString(), login["password"].ToString());
+                Usuarios? user = new UsuarioBC().LoginUsuario(db, login["username"].ToString(), login["password"].ToString());
                 var loginResponse = new JsonObject
                 {
 

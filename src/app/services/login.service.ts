@@ -3,13 +3,15 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Login } from '../models/login';
+import { User } from '../models/user';
 
 @Injectable({
   providedIn: 'root'
 })
 export class LoginService {
 
-  url: string="https://localhost:7155/api/Usuarios/login";
+  urlLogin: string="https://localhost:7155/api/Usuarios/login";
+  urlRegister: string="https://localhost:7155/api/Usuarios";
 
   loggedIn= new BehaviorSubject<boolean>(false);
   currentUserSubject: BehaviorSubject<Login>;
@@ -24,13 +26,18 @@ export class LoginService {
    iniciarSesion(login: Login):Observable<any>
    {
 
-    return this.http.post<any>(this.url, login); 
+    return this.http.post<any>(this.urlLogin, login); 
     // .pipe(map(data =>{
     //   sessionStorage.setItem
     // }))
    }
 
 
+registrarUsuario(user: User):Observable<any>{
 
+
+
+  return this.http.post<any>(this.urlRegister,User)
+}
 
 }
