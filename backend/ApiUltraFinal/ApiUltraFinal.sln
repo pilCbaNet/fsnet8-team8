@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUltraFinal", "ApiUltraFinal.csproj", "{5BFAAC03-3CF5-493C-946F-BDE61976D89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{072B944C-EAA6-48CC-ACE1-A79603203399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "..\Negocio\Negocio.csproj", "{45742E3B-FD9A-485A-83FC-EA3C20E0FCE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BFAAC03-3CF5-493C-946F-BDE61976D89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFAAC03-3CF5-493C-946F-BDE61976D89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFAAC03-3CF5-493C-946F-BDE61976D89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFAAC03-3CF5-493C-946F-BDE61976D89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072B944C-EAA6-48CC-ACE1-A79603203399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072B944C-EAA6-48CC-ACE1-A79603203399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072B944C-EAA6-48CC-ACE1-A79603203399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072B944C-EAA6-48CC-ACE1-A79603203399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45742E3B-FD9A-485A-83FC-EA3C20E0FCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45742E3B-FD9A-485A-83FC-EA3C20E0FCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45742E3B-FD9A-485A-83FC-EA3C20E0FCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45742E3B-FD9A-485A-83FC-EA3C20E0FCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {246A036D-100E-4DAC-A289-EBB46C958717}
+	EndGlobalSection
+EndGlobal

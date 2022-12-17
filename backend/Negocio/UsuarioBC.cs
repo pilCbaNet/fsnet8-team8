@@ -15,10 +15,10 @@ namespace Negocio
             return db.Usuarios.FirstOrDefault(a => a.IdUsuario == id);
         }
 
-        public Usuarios LoginUsuario(BilleteraCryptoContext db, string us, string pass)
+        public Usuarios LoginUsuario(BilleteraCryptoContext db, string email, string pass)
         {
             var usuarioLogueado = db.Usuarios.
-                FirstOrDefault(c => c.Usuario == us && c.Contraseña == pass);
+                FirstOrDefault(c => c.EmailUsu == email && c.PasswordUsu == pass);
             return usuarioLogueado;
         }
     }
