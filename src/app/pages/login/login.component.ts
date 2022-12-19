@@ -17,7 +17,9 @@ user:any;
 
   form!: FormGroup;
 
-  constructor(private formBuilder: FormBuilder, private miServicio:LoginService, private router:Router) {
+  constructor(private formBuilder: FormBuilder, 
+    private miServicio:LoginService, 
+    private router:Router) {
 
     // validacion
     this.form = this.formBuilder.group({

@@ -21,6 +21,20 @@
       <label for="correo" class="form-label">Ingrese su correo electrónico</label>
       <input class="controls form-control" type="email" name="correo" id="correo">
     </div>
+    
+        <!-- Password -->
+        <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+          <label for="password" class="form-label">Ingrese su contraseña</label>
+          <input class="controls form-control" type="password" name="password" id="password">
+        </div>
+    
+        <!-- Confirm password -->
+        <div class="col-sm-12 col-md-12 col-lg-5 p-3">
+          <label for="confirmPassword" class="form-label">Vuelva a ingresar su contraseña</label>
+          <input class="controls form-control" type="password" name="confirmPassword" id="confirmPassword">
+        </div>
+    
+       
 
     <!-- Date birth -->
     <div class="col-sm-12 col-md-12 col-lg-5 p-3">
@@ -28,48 +42,6 @@
       <input id="startDate" class="controls form-control" type="date" />
     </div>
 
-
-    <!-- Password -->
-    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-      <label for="password" class="form-label">Ingrese su contraseña</label>
-      <input class="controls form-control" type="password" name="password" id="password">
-    </div>
-
-    <!-- Confirm password -->
-    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-      <label for="confirmPassword" class="form-label">Vuelva a ingresar su contraseña</label>
-      <input class="controls form-control" type="password" name="confirmPassword" id="confirmPassword">
-    </div>
-
-    <!-- provincia -->
-    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-      <label for="provincia" class="form-label">Selecione su Provincia</label>
-      <select name="provincias" class="controls form-control" aria-placeholder="Provincia"
-        (change)="onProvinciasSelected($event)">
-        <option>
-          test
-        </option>
-        <option *ngFor="let p of ListaProvincias" value="{{p.idProvincia}}">
-          {{p.nomProvincia}}
-        </option>
-      </select>
-    </div>
-
-    <!-- Localidad -->
-    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-      <label for="localidad" class="form-label">Seleccione su Localidad</label>
-      <select name="localidades" class="controls form-control" aria-placeholder="Localidades">
-        <option *ngFor="let l of ListaLocalidades" value={{l.idLocalidad}}>
-          {{l.nomLocalidad}}
-        </option>
-      </select>
-    </div>
-
-    <!-- telefono -->
-    <div class="col-sm-12 col-md-12 col-lg-5 p-3">
-      <label for="telefono" class="form-label">Ingrese su telefono</label>
-      <input class="controls form-control" type="text" name="telefono" id="telefono">
-    </div>
 
     <!-- Terms of service -->
 

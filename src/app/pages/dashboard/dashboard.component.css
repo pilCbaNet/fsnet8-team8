@@ -1,4 +1,84 @@
-.primerDiv{
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   */
+  
+  .form-register {
+    width: 1000px;
+    background: rgb(34, 36, 108);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    animation: fadeIn 0.8s;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align:center;
+  }
+  
+  .controls {
+    /* width: 100%; */
+    background: rgb(0, 26, 124);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: rgb(252, 254, 157);
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: yellow;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 40%;
+    justify-content: center;
+    background: rgb(61, 75, 225);
+    border: none;
+    padding: 12px;
+    color: rgb(253, 254, 160);
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+  }
+  .check-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+/* .primerDiv{
     background-color:rgba(255, 255, 255, 0.171);
     padding: 3em;
 }
@@ -18,4 +98,4 @@ table{
     background-color: #cf9357;
     border-color: #cf9357;
     border-radius: 10px;
-}
+} */
