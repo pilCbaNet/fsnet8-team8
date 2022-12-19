@@ -1,28 +1,19 @@
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\bin\Debug\net6.0\Entities.deps.json
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\bin\Debug\net6.0\Entities.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\bin\Debug\net6.0\Entities.pdb
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\refint\Entities.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\Entities.pdb
-C:\Users\Equipo\Desktop\API BILLETERA\Entities\obj\Debug\net6.0\ref\Entities.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\bin\Debug\net6.0\Entities.deps.json
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\bin\Debug\net6.0\Entities.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\bin\Debug\net6.0\Entities.pdb
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\refint\Entities.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\Entities.pdb
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\bin\Debug\net6.0\Entities.runtimeconfig.json
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Entities\obj\Debug\net6.0\ref\Entities.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\bin\Debug\net6.0\Entities.runtimeconfig.json
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\bin\Debug\net6.0\Entities.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\bin\Debug\net6.0\Entities.pdb
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
@@ -33,4 +24,5 @@ C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\obj\Debug\net6.0\Entities.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\obj\Debug\net6.0\Entities.pdb
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Entities\obj\Debug\net6.0\ref\Entities.dll

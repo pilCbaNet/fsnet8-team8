@@ -7,16 +7,17 @@ namespace Entities
     {
         public Billeteras()
         {
-            Transferencia = new HashSet<Transferencias>();
+            Operaciones = new HashSet<Operaciones>();
         }
 
         public int IdBilletera { get; set; }
-        public int? CvuBille { get; set; }
+        public int CvuBille { get; set; }
+        public decimal? SaldoArsBille { get; set; }
+        public decimal? SaldoBtcBille { get; set; }
+        public bool? EstadoBille { get; set; }
         public int? IdUsuario { get; set; }
-        public int? IdEstado { get; set; }
 
-        public virtual Estados? IdEstadoNavigation { get; set; }
         public virtual Usuarios? IdUsuarioNavigation { get; set; }
-        public virtual ICollection<Transferencias> Transferencia { get; set; }
+        public virtual ICollection<Operaciones> Operaciones { get; set; }
     }
 }

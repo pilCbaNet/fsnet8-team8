@@ -1,45 +1,34 @@
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\bin\Debug\net6.0\Negocio.deps.json
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\bin\Debug\net6.0\Negocio.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\bin\Debug\net6.0\Negocio.pdb
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\bin\Debug\net6.0\Entities.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\bin\Debug\net6.0\Entities.pdb
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\refint\Negocio.dll
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\Negocio.pdb
-C:\Users\Equipo\Desktop\API BILLETERA\Negocio\obj\Debug\net6.0\ref\Negocio.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\bin\Debug\net6.0\Negocio.deps.json
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\bin\Debug\net6.0\Negocio.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\bin\Debug\net6.0\Negocio.pdb
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\bin\Debug\net6.0\Entities.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\bin\Debug\net6.0\Entities.pdb
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\refint\Negocio.dll
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\Negocio.pdb
-C:\Users\Equipo\Desktop\ultimatum api\qqqqqq\fsnet8-team8-testing\backend\Negocio\obj\Debug\net6.0\ref\Negocio.dll
-C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.deps.json
-C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.dll
-C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.pdb
-C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Entities.dll
-C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Entities.pdb
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\bin\Debug\net6.0\Negocio.runtimeconfig.json
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\bin\Debug\net6.0\Entities.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\bin\Debug\net6.0\Entities.pdb
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\refint\Negocio.dll
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\Negocio.genruntimeconfig.cache
+C:\Users\Equipo\Desktop\CAMBIAR NOMBRE (API)\Negocio\obj\Debug\net6.0\ref\Negocio.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.AssemblyReference.cache
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfoInputs.cache
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.AssemblyInfo.cs
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\refint\Negocio.dll
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.pdb
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.deps.json
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.runtimeconfig.json
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.dll
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Negocio.pdb
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Entities.dll
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\bin\Debug\net6.0\Entities.pdb
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.csproj.CopyComplete
+C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\Negocio.genruntimeconfig.cache
 C:\Users\Admin\Desktop\PIL\ProyectoCrypto\frontend\fsnet8-team8\backend\Negocio\obj\Debug\net6.0\ref\Negocio.dll
