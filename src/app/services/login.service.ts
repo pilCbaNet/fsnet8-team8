@@ -10,8 +10,8 @@ import { User } from '../models/user';
 })
 export class LoginService {
 
-  urlLogin: string="https://localhost:7155/api/Usuarios/login";
-  urlRegister: string="https://localhost:7155/api/Usuarios";
+  urlLogin: string="https://localhost:7150/api/Usuarios/login";
+  urlRegister: string="https://localhost:7150/api/Usuarios/registrar";
 
   loggedIn= new BehaviorSubject<boolean>(false);
   currentUserSubject: BehaviorSubject<Login>;
@@ -37,7 +37,7 @@ registrarUsuario(user: User):Observable<any>{
 
 
 
-  return this.http.post<any>(this.urlRegister,User)
+  return this.http.post<any>(this.urlRegister, user)
 }
 
 }

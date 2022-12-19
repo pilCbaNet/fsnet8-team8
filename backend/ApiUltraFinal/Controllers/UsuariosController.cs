@@ -52,32 +52,36 @@ namespace Api_Billetera.Controllers
             }
         }
 
-        //[HttpPost]
-        //[Route("API-BestWallet/usuario/registrar")]
-        //public async Task<Usuarios> RegistrarUsuario([FromBody] Usuarios oUsuario)
-        //{
-        //    using (var db = new BilleteraCryptoContext())
-        //    {
-        //        return await db.Usuarios.RegistrarUsuario(oUsuario);
-
-        //    }
 
 
-        //}
+
+    [HttpPost]
+    [Route("registrar")]
+    public void PostNewUser([FromBody] Usuarios oUsuarios)
+    {
+      using (var db = new BilleteraCryptoContext())
+      {
 
 
-        // POST api/<UsuariosController>
-        [HttpPost]
-        public void Post([FromBody] Usuarios oUsuario)
-        {
-            using (var db = new BilleteraCryptoContext())
-            {
-                db.Usuarios.Add(oUsuario);
-                db.SaveChanges();
-            }
-        }
+        oUsuarios.FechaAltaUsu = DateTime.Now;
+        oUsuarios.FechaBajaUsu = null;
+        db.Usuarios.Add(oUsuarios);
+        db.SaveChanges();
 
-        // PUT api/<UsuariosController>/5
+        Billeteras oBilletera = new Billeteras();
+        oBilletera.SaldoArsBille = 0;
+        Random rd = new();
+        oBilletera.CvuBille = rd.Next(1000000000, 999999999);
+        oBilletera.IdUsuario = oUsuarios.IdUsuario;
+
+
+        db.Billeteras.Add(oBilletera);
+        db.SaveChanges();
+      }
+    }
+
+
+
         [HttpPut("{id}")]
         public void Put( [FromBody] Usuarios OldUser)
         {

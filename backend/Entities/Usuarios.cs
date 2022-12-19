@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Entities
@@ -13,10 +13,10 @@ namespace Entities
         public int IdUsuario { get; set; }
         public string? NombreUsu { get; set; }
         public string? ApellidoUsu { get; set; }
-        public string DniUsu { get; set; } = null!;
+        public string? DniUsu { get; set; } = null!;
         public DateTime? FechaNacUsu { get; set; }
-        public string EmailUsu { get; set; } = null!;
-        public string PasswordUsu { get; set; } = null!;
+        public string? EmailUsu { get; set; } = null!;
+        public string? PasswordUsu { get; set; } = null!;
         public DateTime? FechaAltaUsu { get; set; }
         public DateTime? FechaBajaUsu { get; set; }
 

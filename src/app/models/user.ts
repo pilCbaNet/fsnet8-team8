@@ -1,15 +1,15 @@
 export class User{
 
     private idUsuario?: number;
-    private nombreUsu: string;
-    private apellidoUsu: string;
-    private Dni: number;
+    private NombreUsu: string;
+    private ApellidoUsu: string;
+    private DniUsu: number;
     private FechaNacUsu: Date;
     private EmailUsu: string;
-    private Contraseña: string;
+    private PasswordUsu: string;
     private FechaAltaUsu?: Date;
     private FechaBajaUsu?: Date;
-    private IdLocalidad?: number;
+
 
     constructor(
         nombreUsu:string,
@@ -18,20 +18,19 @@ export class User{
         FechaNacUsu:Date,
         EmailUsu: string,
         Contraseña: string,
-        Telefono?: string,
         FechaAltaUsu?: Date,
         FechaBajaUsu?: Date,
-        IdLocalidad?: number
+
         ){
 
-        this.nombreUsu=nombreUsu;
-        this.apellidoUsu=apellidoUsu;
-        this.Dni=Dni;
+        this.NombreUsu=nombreUsu;
+        this.ApellidoUsu=apellidoUsu;
+        this.DniUsu=Dni;
         this.FechaNacUsu=FechaNacUsu;
         this.EmailUsu=EmailUsu;
-        this.Contraseña=Contraseña;
+        this.PasswordUsu=Contraseña;
         this.FechaAltaUsu=FechaAltaUsu;
         this.FechaBajaUsu=FechaBajaUsu;
-        this.IdLocalidad=IdLocalidad;
+
     }
 }
