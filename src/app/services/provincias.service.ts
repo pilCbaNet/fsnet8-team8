@@ -2,8 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { Provincia } from '../models/provincia';
-import { Localidad } from '../models/localidad';
+
 
 @Injectable({
   providedIn: 'root'
